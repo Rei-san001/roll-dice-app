@@ -8,9 +8,13 @@ void main() {
       home: Scaffold(
         //backgroundColor: Color.fromARGB(255, 255, 255, 1),
         //backgroundColor: Colors.indigoAccent,
-        body: GradientContainer(),
+        //body: GradientContainer([Colors.red, Colors.blue]),
+        body: GradientContainer(
+        [Color.fromARGB(255, 26, 2, 80),
+        Color.fromARGB(255, 152, 140, 213)]
+        ),
+        ),
       ),
-    ),
   );
 }
 
